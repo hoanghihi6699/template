@@ -1,0 +1,653 @@
+$color-w: #fff;
+$color-b: #000;
+$color-trans: transparent;
+$im: !important;
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@wght@400;500;600;700&display=swap");
+
+* {
+    font-family: "Baloo Bhaina 2", cursive;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+}
+
+.f {
+    &s {
+        &-1 {
+            font-size: 12px;
+        }
+        &-2 {
+            font-size: 14px;
+        }
+        &-3 {
+            font-size: 18px;
+        }
+        &-4 {
+            font-size: 20px;
+        }
+        &-5 {
+            font-size: 22px;
+        }
+        &-6 {
+            font-size: 24px;
+        }
+        &-7 {
+            font-size: 28px;
+        }
+        &-8 {
+            font-size: 32px;
+        }
+        &-9 {
+            font-size: 38px;
+        }
+        &-10 {
+            font-size: 48px;
+        }
+    }
+    &w {
+        &-3 {
+            font-weight: 300;
+        }
+        &-4 {
+            font-weight: 400;
+        }
+        &-5 {
+            font-weight: 500;
+        }
+        &-6 {
+            font-weight: 600;
+        }
+        &-7 {
+            font-weight: 700;
+        }
+        &-8 {
+            font-weight: 800;
+        }
+        &-9 {
+            font-weight: 900;
+        }
+    }
+    &c {
+        &-w {
+            color: white;
+        }
+        &-b {
+            color: black;
+        }
+    }
+
+    &f {
+        &-arial {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+
+.lh- {
+    &1 {
+        line-height: 10px;
+    }
+}
+.link {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+
+    &:hover {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.m {
+    &-t {
+        &-0 {
+            margin-top: 0px;
+        }
+        &-1 {
+            margin-top: 10px;
+        }
+        &-2 {
+            margin-top: 20px;
+        }
+        &-3 {
+            margin-top: 30px;
+        }
+        &-4 {
+            margin-top: 40px;
+        }
+        &-5 {
+            margin-top: 50px;
+        }
+        &-6 {
+            margin-top: 60px;
+        }
+        &-7 {
+            margin-top: 70px;
+        }
+        &-8 {
+            margin-top: 80px;
+        }
+        &-9 {
+            margin-top: 90px;
+        }
+        &-10 {
+            margin-top: 100px;
+        }
+    }
+    &-b {
+        &-0 {
+            margin-bottom: 0px;
+        }
+        &-1 {
+            margin-bottom: 10px;
+        }
+        &-2 {
+            margin-bottom: 20px;
+        }
+        &-3 {
+            margin-bottom: 30px;
+        }
+        &-4 {
+            margin-bottom: 40px;
+        }
+        &-5 {
+            margin-bottom: 50px;
+        }
+        &-6 {
+            margin-bottom: 60px;
+        }
+        &-7 {
+            margin-bottom: 70px;
+        }
+        &-8 {
+            margin-bottom: 80px;
+        }
+        &-9 {
+            margin-bottom: 90px;
+        }
+        &-10 {
+            margin-bottom: 100px;
+        }
+    }
+    &-r {
+        &-0 {
+            margin-right: 0px;
+        }
+        &-1 {
+            margin-right: 10px;
+        }
+        &-2 {
+            margin-right: 20px;
+        }
+        &-3 {
+            margin-right: 30px;
+        }
+        &-4 {
+            margin-right: 40px;
+        }
+        &-5 {
+            margin-right: 50px;
+        }
+        &-6 {
+            margin-right: 60px;
+        }
+        &-7 {
+            margin-right: 70px;
+        }
+        &-8 {
+            margin-right: 80px;
+        }
+        &-9 {
+            margin-right: 90px;
+        }
+        &-10 {
+            margin-right: 100px;
+        }
+    }
+    &-l {
+        &-0 {
+            margin-left: 0px;
+        }
+        &-1 {
+            margin-left: 10px;
+        }
+        &-2 {
+            margin-left: 20px;
+        }
+        &-3 {
+            margin-left: 30px;
+        }
+        &-4 {
+            margin-left: 40px;
+        }
+        &-5 {
+            margin-left: 50px;
+        }
+        &-6 {
+            margin-left: 60px;
+        }
+        &-7 {
+            margin-left: 70px;
+        }
+        &-8 {
+            margin-left: 80px;
+        }
+        &-9 {
+            margin-left: 90px;
+        }
+        &-10 {
+            margin-left: 100px;
+        }
+    }
+    &g- {
+        &0 {
+            margin: 0;
+        }
+        &1 {
+            margin: 1px 1px 1px;
+        }
+        &2 {
+            margin: 2px 2px 2px;
+        }
+        &3 {
+            margin: 3px 3px 3px;
+        }
+        &4 {
+            margin: 4px 4px 4px;
+        }
+        &5 {
+            margin: 5px 5px 5px;
+        }
+        &6 {
+            margin: 6px 6px 6px;
+        }
+        &7 {
+            margin: 7px 7px 7px;
+        }
+        &8 {
+            margin: 8px 8px 8px;
+        }
+    }
+}
+
+.p {
+    &-t {
+        &-0 {
+            padding-top: 0px;
+        }
+        &-1 {
+            padding-top: 10px;
+        }
+        &-2 {
+            padding-top: 20px;
+        }
+        &-3 {
+            padding-top: 30px;
+        }
+        &-4 {
+            padding-top: 40px;
+        }
+        &-5 {
+            padding-top: 50px;
+        }
+        &-6 {
+            padding-top: 60px;
+        }
+        &-7 {
+            padding-top: 70px;
+        }
+        &-8 {
+            padding-top: 80px;
+        }
+        &-9 {
+            padding-top: 90px;
+        }
+        &-10 {
+            padding-top: 100px;
+        }
+    }
+    &-b {
+        &-0 {
+            padding-bottom: 0px;
+        }
+        &-1 {
+            padding-bottom: 10px;
+        }
+        &-2 {
+            padding-bottom: 20px;
+        }
+        &-3 {
+            padding-bottom: 30px;
+        }
+        &-4 {
+            padding-bottom: 40px;
+        }
+        &-5 {
+            padding-bottom: 50px;
+        }
+        &-6 {
+            padding-bottom: 60px;
+        }
+        &-7 {
+            padding-bottom: 70px;
+        }
+        &-8 {
+            padding-bottom: 80px;
+        }
+        &-9 {
+            padding-bottom: 90px;
+        }
+        &-10 {
+            padding-bottom: 100px;
+        }
+    }
+    &-r {
+        &-0 {
+            padding-right: 0px;
+        }
+        &-1 {
+            padding-right: 10px;
+        }
+        &-2 {
+            padding-right: 20px;
+        }
+        &-3 {
+            padding-right: 30px;
+        }
+        &-4 {
+            padding-right: 40px;
+        }
+        &-5 {
+            padding-right: 50px;
+        }
+        &-6 {
+            padding-right: 60px;
+        }
+        &-7 {
+            padding-right: 70px;
+        }
+        &-8 {
+            padding-right: 80px;
+        }
+        &-9 {
+            padding-right: 90px;
+        }
+        &-10 {
+            padding-right: 100px;
+        }
+    }
+    &-l {
+        &-0 {
+            padding-left: 0px;
+        }
+        &-1 {
+            padding-left: 10px;
+        }
+        &-2 {
+            padding-left: 20px;
+        }
+        &-3 {
+            padding-left: 30px;
+        }
+        &-4 {
+            padding-left: 40px;
+        }
+        &-5 {
+            padding-left: 50px;
+        }
+        &-6 {
+            padding-left: 60px;
+        }
+        &-7 {
+            padding-left: 70px;
+        }
+        &-8 {
+            padding-left: 80px;
+        }
+        &-9 {
+            padding-left: 90px;
+        }
+        &-10 {
+            padding-left: 100px;
+        }
+    }
+    &d- {
+        &0 {
+            padding: 0;
+        }
+        &1 {
+            padding: 1px 1px 1px;
+        }
+        &2 {
+            padding: 2px 2px 2px;
+        }
+        &3 {
+            padding: 3px 3px 3px;
+        }
+        &4 {
+            padding: 4px 4px 4px;
+        }
+        &5 {
+            padding: 5px 5px 5px;
+        }
+        &6 {
+            padding: 6px 6px 6px;
+        }
+        &7 {
+            padding: 7px 7px 7px;
+        }
+        &8 {
+            padding: 8px 8px 8px;
+        }
+        &9 {
+            padding: 9px 9px 9px;
+        }
+        &10 {
+            padding: 10px 10px 10px;
+        }
+    }
+}
+
+.bg {
+    &-cover {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        &-attach {
+            background-attachment: fixed;
+        }
+    }
+}
+
+.btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #818181;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    &-white {
+        background-color: white;
+        border-color: white;
+        color: black;
+        &:hover {
+            color: white$im;
+        }
+    }
+    &-black {
+        background-color: black;
+        border-color: black;
+        color: white;
+        &:hover {
+            color: black$im;
+        }
+    }
+    &-blue {
+        background-color: rgb(47, 146, 226);
+        border-color: rgb(47, 146, 226);
+        color: white;
+        &:hover {
+            color: rgb(47, 146, 226) $im;
+        }
+    }
+    &-green {
+        background-color: rgb(58, 238, 118);
+        border-color: rgb(58, 238, 118);
+        color: #000;
+        &:hover {
+            color: rgb(58, 238, 118) $im;
+        }
+    }
+    &-red {
+        background-color: rgb(197, 63, 58);
+        border-color: rgb(197, 63, 58);
+        color: white;
+        &:hover {
+            color: rgb(197, 63, 58) $im;
+        }
+    }
+    &-brown {
+        background-color: rgb(146, 71, 27);
+        border-color: rgb(146, 71, 27);
+        color: white;
+        &:hover {
+            color: rgb(146, 71, 27) $im;
+        }
+    }
+    &-outline {
+        &-white {
+            background-color: $color-trans;
+            border-color: white;
+            color: white;
+            &:hover {
+                color: black $im;
+                background-color: white $im;
+            }
+        }
+        &-black {
+            background-color: $color-trans;
+            border-color: black;
+            color: black;
+            &:hover {
+                color: white$im;
+                background-color: black$im;
+            }
+        }
+        &-blue {
+            background-color: $color-trans;
+            border-color: rgb(47, 146, 226);
+            color: rgb(47, 146, 226);
+            &:hover {
+                color: white$im;
+                background-color: rgb(47, 146, 226) $im;
+            }
+        }
+        &-green {
+            background-color: $color-trans;
+            border-color: rgb(58, 238, 118);
+            color: rgb(58, 238, 118);
+            &:hover {
+                color: black$im;
+                background-color: rgb(58, 238, 118) $im;
+            }
+        }
+        &-red {
+            background-color: $color-trans;
+            border-color: rgb(197, 63, 58);
+            color: rgb(197, 63, 58);
+            &:hover {
+                color: white$im;
+                background-color: rgb(197, 63, 58) $im;
+            }
+        }
+        &-brown {
+            background-color: $color-trans;
+            border-color: rgb(146, 71, 27);
+            color: rgb(146, 71, 27);
+            &:hover {
+                color: white$im;
+                background-color: rgb(146, 71, 27) $im;
+            }
+        }
+    }
+
+    &:hover {
+        background-color: transparent;
+        color: #000;
+    }
+}
+
+.border- {
+    &t- {
+        &1 {
+            border-top: 1px solid;
+        }
+        &2 {
+            border-top: 1px solid;
+        }
+        &3 {
+            border-top: 1px solid;
+        }
+        &4 {
+            border-top: 1px solid;
+        }
+    }
+    &b- {
+        &1 {
+            border-bottom: 1px solid;
+        }
+        &2 {
+            border-bottom: 1px solid;
+        }
+        &3 {
+            border-bottom: 1px solid;
+        }
+        &4 {
+            border-bottom: 1px solid;
+        }
+    }
+    &l- {
+        &1 {
+            border-left: 1px solid;
+        }
+        &2 {
+            border-left: 1px solid;
+        }
+        &3 {
+            border-left: 1px solid;
+        }
+        &4 {
+            border-left: 1px solid;
+        }
+    }
+    &r- {
+        &1 {
+            border-right: 1px solid;
+        }
+        &2 {
+            border-right: 1px solid;
+        }
+        &3 {
+            border-right: 1px solid;
+        }
+        &4 {
+            border-right: 1px solid;
+        }
+    }
+}
+
+.align{
+    &-center{
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
+}
